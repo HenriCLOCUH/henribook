@@ -1,6 +1,8 @@
 Henribook::Application.routes.draw do
-  resources :statuses
+  devise_for :users
 
+  resources :statuses
+  root to: 'status#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
