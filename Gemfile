@@ -14,6 +14,9 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'simple_form', '2.0.0'
+  gem  'state_machine', '1.1.2'
+  gem 'draper', '0.18.0'
+  gem 'js-routes', '0.8.4'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -25,6 +28,7 @@ gem 'jquery-rails'
 
 group :test do
 	gem 'shoulda', '~> 3.3', '>= 3.3.2'
+	gem  'factory_girl_rails', '3.6.0'
 end
 
 # To use ActiveModel has_secure_password
